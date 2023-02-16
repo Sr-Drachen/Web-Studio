@@ -1,5 +1,9 @@
 .section-clients{
     background-color: var(--main-background-light);
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 .clients-title { 
     font-weight: 700;
@@ -9,10 +13,17 @@
     color: var(--main-color-dark);
     text-align: center;
     margin-bottom: 50px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
 }
 .clients-list {
     display: flex; 
     gap: 24px;
+    @media screen and (min-width: 1200px) {
+        flex-wrap: nowrap;
+    }
 }
 .site {
     font-size: 14px;
@@ -20,6 +31,31 @@
     letter-spacing: 0.03em;
     text-align: left;
     line-height: 1.8;
+}
+.clients-list-item{
+    width: 168px;
+    height: 88px;
+    transition-property: fill, transform;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
+    transition-delay: 0;
+    flex-basis: calc((100% - 130px) / 6);
+    &:hover .clients-link{
+        color: var(--brand-color);
+        border-color: solid 1px var(--brand-color);
+    }
+    &:hover .clients-icon{
+        fill: var(--brand-color);
+    }
+    @media screen and (max-width: 767px) {
+        width: 210px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 226px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 170px;
+    }
 }
 .clients-link{
     border-radius: 4px;
@@ -38,21 +74,8 @@
         background-color: var(--main-background-light);
         fill: var(--brand-color);
     }
-}
-.clients-list-item{
-    width: 168px;
-    height: 88px;
-    transition-property: fill, transform;
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubic);
-    transition-delay: 0;
-    flex-basis: calc((100% - 130px) / 6);
-    &:hover .clients-link{
-        color: var(--brand-color);
-        border-color: solid 1px var(--brand-color);
-    }
-    &:hover .clients-icon{
-        fill: var(--brand-color);
+    @media screen and (min-width: 1200px) {
+        width: 170px;
     }
 }
 .clients-icon {
