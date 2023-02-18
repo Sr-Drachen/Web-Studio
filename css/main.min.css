@@ -1310,23 +1310,24 @@ textarea:focus {
 
 
 .footer {
-    background: var(--main-background-dark);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    display: flex;
+  background: var(--main-background-dark);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
 }
 
 .logo-footer-position {
-    margin-bottom: 9px;
-    margin-right: 0px;
+  margin-bottom: 9px;
+  margin-right: 0px;
 }
 .contacts.site {
-    margin-bottom: 7px;
-    display: block;
+  margin-bottom: 7px;
+  display: block;
 }
 .footer-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
 }
 .footer {
   text-align: center;
@@ -1346,7 +1347,7 @@ textarea:focus {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px 165px;
+    gap: 22px;
   }
 }
 
@@ -1355,7 +1356,6 @@ textarea:focus {
     display: flex;
     justify-content: center;
     text-align: left;
-    gap: 70px;
   }
 }
 
