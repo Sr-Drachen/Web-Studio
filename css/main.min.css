@@ -2,48 +2,59 @@
 /* ESTOS SON TODOS LOS COLORES GLOBALES */
 
 :root {
-    --brand-color: #2196F3;
-    --main-color-dark: #212121;
-    --main-color-light: #FFFFFF;
-    --main-color-grey: #757575;
-    --main-border-light:#EEEEEE;
-    --main-border-grey: #AFB1B8;
-    --main-border-chill: #f7ebeb;
-    --main-background-chill:#F5F4FA;
-    --main-background-light: #FFFFFF;
-    --main-background-beige: #E5E5E5;
-    --main-background-semi-light: #f4f4f4;
-    --main-background-dark: #2F303A;
-    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  --brand-color: #2196F3;
+  --main-color-dark: #212121;
+  --main-color-light: #FFFFFF;
+  --main-color-grey: #757575;
+  --main-border-light:#EEEEEE;
+  --main-border-grey: #AFB1B8;
+  --main-border-chill: #f7ebeb;
+  --main-background-chill:#F5F4FA;
+  --main-background-light: #FFFFFF;
+  --main-background-beige: #E5E5E5;
+  --main-background-semi-light: #f4f4f4;
+  --main-background-dark: #2F303A;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 /*ESTO SON ESTILOS GLOBALES PARA TODO EL CODIGO */
 
 body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-color-dark);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color-dark);
+}
+body::-webkit-scrollbar{
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+  background: var(--brand-color);
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: rgb(25, 117, 192);
+;
 }
 h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+  margin: 0;
 }
 img {
-    display: flex;
-    max-width: 100%;
+  display: flex;
+  max-width: 100%;
 }
 *,*::before,*::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .list{
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
 }
 .link{
-    text-decoration: none;
-    color: currentColor;
+  text-decoration: none;
+  color: currentColor;
 }
 .header{
-    border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
 }
 @media screen and (max-width: 767px) {
   .header {
@@ -52,16 +63,16 @@ img {
   }
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .icon-item{
     width: 264px;
