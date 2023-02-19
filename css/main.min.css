@@ -75,45 +75,40 @@ img {
   overflow: hidden;
 }
 .icon-item{
-    width: 264px;
-    height: 112px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: var(--brand-color);
+  width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--brand-color);
 }
 
 .header-container{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
-  .header-section {
+  .header-container {
     max-width: 767px;
   }
 }
 .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;   
-    margin-right: auto;  
+  width: 100%;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;   
+  margin-right: auto;  
 }
 @media screen and (max-width: 479px) {
   .container {
-    width: 400px;
+    width: auto;
   }
 }
 @media screen and (min-width: 480px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
+    width: auto;
   }
 }
 
@@ -549,7 +544,7 @@ img {
 @media screen and (max-width: 479px) {
   .hero-title {
     font-size: 18px;
-    max-width: 360px;
+    width: auto;
   }
 }
 @media screen and (min-width: 480px) {
@@ -585,7 +580,7 @@ img {
   .hero-section-button {
     padding: 7px;
     font-size: 12px;
-    min-width: 140px;
+    width: auto;
   }
 }
 @media screen and (min-width: 480px) {
@@ -628,8 +623,8 @@ img {
 }
 @media screen and (max-width: 479px) {
   .modal {
-    width: 320px;
-    min-height: 581px;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -679,7 +674,7 @@ img {
 }
 @media screen and (max-width: 479px) {
   .form {
-    width: 320px;
+    max-width: 330px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -885,6 +880,8 @@ textarea:focus {
 /* ESTO ES FEATURE SECTION */
 
 .feature-section{
+  justify-content: center;
+  align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -897,8 +894,7 @@ textarea:focus {
 
 @media screen and (max-width: 479px) {
   .feature-section {
-    padding-left: 15px;
-    padding-right: 15px;
+    width: auto;
   }
 }
 .list-feature {
@@ -907,9 +903,14 @@ textarea:focus {
   gap: 30px;
   padding: 0;
 }
+@media screen and (max-width: 479px) {
+  .feature-section-item {
+    width: auto;
+  }
+}
 @media screen and (min-width: 480px) {
   .feature-section-item {
-    width: 450px;
+    width: auto;
   }
 }
 
@@ -935,7 +936,7 @@ textarea:focus {
 }
 @media screen and (max-width: 479px) {
   .icon-item-feature {
-    width: 390px;
+    width: auto;
   }
 }
 @media screen and (min-width: 480px) {
