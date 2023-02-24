@@ -911,7 +911,7 @@ textarea:focus {
 }
 @media screen and (min-width: 480px) {
   .feature-section-item {
-    width: auto;
+    width: 500px;
   }
 }
 
@@ -929,6 +929,7 @@ textarea:focus {
 .icon-item-feature{
   display: flex;
   justify-content: center;
+  max-width: 100%;
   margin-bottom: 20px;
   background-color: var(--main-background-chill);
   fill:var(--main-background-light);
@@ -937,12 +938,12 @@ textarea:focus {
 }
 @media screen and (max-width: 479px) {
   .icon-item-feature {
-    width: auto;
+    width: 200px;
   }
 }
 @media screen and (min-width: 480px) {
   .icon-item-feature {
-    width: 430px;
+    width: 500px;
   }
 }
 
@@ -1059,6 +1060,7 @@ textarea:focus {
 .team-section{
   background-color: var(--main-background-chill);
   padding-bottom: 0;
+  text-align: center;
 }
 @media screen and (min-width: 1200px) {
   .team-section {
