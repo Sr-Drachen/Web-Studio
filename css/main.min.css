@@ -478,47 +478,47 @@ img {
 }
 @media screen and (max-width: 479px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738368420122724/Hero.jpg);
   }
 }
 
 @media screen and (max-width: 479px) and (max-device-pixel-ratio: 2), screen and (max-width: 479px) and (max-resolution: 192dpi), screen and (max-width: 480px) and (max-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738368420122724/Hero.jpg);
   }
 }
 @media screen and (min-width: 480px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738368420122724/Hero.jpg);
   }
 }
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738368420122724/Hero.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078712052153065672/Hero_768.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738406093377648/Hero_768.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078712052153065672/Hero_768.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738406093377648/Hero_768.jpg);
   }
 }
 
 @media screen and (min-width: 1000px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078712293166157937/Hero_1200.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738427480125550/Hero_1200.jpg);
   }
 }
 
 @media screen and (min-width: 1000px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1064712815560114276/img-hero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078738427480125550/Hero_1200.jpg);
   }
 }
 
