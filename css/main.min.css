@@ -881,6 +881,7 @@ textarea:focus {
 /* ESTO ES FEATURE SECTION */
 
 .feature-section{
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 60px;
@@ -895,7 +896,7 @@ textarea:focus {
 
 @media screen and (max-width: 479px) {
   .feature-section {
-    width: auto;
+    width: 100%;
   }
 }
 .list-feature {
@@ -906,24 +907,24 @@ textarea:focus {
 }
 @media screen and (max-width: 479px) {
   .feature-section-item {
-    width: auto;
+    max-width: auto;
   }
 }
 @media screen and (min-width: 480px) {
   .feature-section-item {
-    width: 500px;
+    max-width: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .feature-section-item {
-    width: 354px;
+    max-width: auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .feature-section-item {
-    width: 270px;
+    max-width: auto;
   }
 }
 .icon-item-feature{
@@ -936,14 +937,15 @@ textarea:focus {
   padding: 25px 102px 25px 102px;
   border-radius: 4px;
 }
+
 @media screen and (max-width: 479px) {
   .icon-item-feature {
-    width: 300px;
+    width: 380px;
   }
 }
 @media screen and (min-width: 480px) {
   .icon-item-feature {
-    width: 480px;
+    width: 440px;
   }
 }
 
@@ -964,6 +966,7 @@ textarea:focus {
   height: 70px;
 }
 .feature-section-item{
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
