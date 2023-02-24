@@ -938,12 +938,12 @@ textarea:focus {
 }
 @media screen and (max-width: 479px) {
   .icon-item-feature {
-    width: 200px;
+    width: 300px;
   }
 }
 @media screen and (min-width: 480px) {
   .icon-item-feature {
-    width: 500px;
+    width: 480px;
   }
 }
 
