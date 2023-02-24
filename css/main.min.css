@@ -940,7 +940,7 @@ textarea:focus {
 
 @media screen and (max-width: 479px) {
   .icon-item-feature {
-    width: auto;
+    width: 280px;
   }
 }
 @media screen and (min-width: 480px) {
