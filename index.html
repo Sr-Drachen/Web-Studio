@@ -71,11 +71,7 @@
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                 >
-                    <path
-                    fill-rule="evenodd"
-                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                    clip-rule="evenodd"
-                    ></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z"/>
                 </svg>
                 </button>
         </header>
@@ -231,9 +227,15 @@
                     <h2 class="team-section-title">Nuestro Equipo</h2>
                     <ul class="team-list list">
                         <li class="team-section-item">
-                            <img class="team-section-img" src="images/andresc.jpg" 
-                            alt="Andrés Cubo" 
-                            width="268">
+                        <img
+                            class="photo thumb-team"
+                            srcset="
+                                /images/andresc.jpg 1x,                   
+                                /images/mobile-product-designer-2x.jpg 2x"
+                            src="/images/mobile-product-designer-2x.jpg"
+                            alt="AndresC"
+                            width="450"
+                            >
                             <div class="team-section-title-text">
                                 <h3 class="team-section-list-title">Andrés Cubo</h3>
                                 <p class="team-section-list-text">Diseñador de Productos</p>

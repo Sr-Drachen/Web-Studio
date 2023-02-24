@@ -38,8 +38,9 @@ h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
 img {
-  display: flex;
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 *,*::before,*::after {
   box-sizing: border-box;
@@ -1140,35 +1141,32 @@ textarea:focus {
 .team-section-item {
   flex-basis: calc((100% - 111px) / 4);
 }
-.team-section-item{
-  width: auto;
-  text-align: center;
-  background-color: var(--main-background-light);
-  border: 1px solid var(--main-border-chill);
+.team-section-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  background-color: var(--main-background-light);
 }
+
 @media screen and (max-width: 479px) {
   .team-section-item {
-    width: 270px;
+    max-width: auto;
   }
 }
 
 @media screen and (min-width: 480px) {
   .team-section-item {
-    width: 450px;
+    max-width: 450px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .team-section-item {
-    width: 354px;
+    max-width: 354px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .team-section-item {
-    width: 270px;
+    max-width: 270px;
   }
 }
 .team-section-title-text{
