@@ -471,48 +471,48 @@ img {
     text-align: center;
     padding: 200px 0;
     margin: auto;
-    background: rgba(47, 48, 58, 0.4) url(https://cdn.discordapp.com/attachments/845486960742105089/1064712815560114276/img-hero.jpg)
+    background: rgba(47, 48, 58, 0.4) url(https://cdn.discordapp.com/attachments/845486960742105089/1078712293166157937/Hero_1200.jpg)
     no-repeat center;
     background-size: cover;
     box-shadow: none;
 }
 @media screen and (max-width: 479px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1076194611636228147/img-hero-400.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
   }
 }
 
 @media screen and (max-width: 479px) and (max-device-pixel-ratio: 2), screen and (max-width: 479px) and (max-resolution: 192dpi), screen and (max-width: 480px) and (max-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1076194611636228147/img-hero-400.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
   }
 }
 @media screen and (min-width: 480px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1076194611636228147/img-hero-400.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
   }
 }
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1076194611636228147/img-hero-400.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078711376165482596/Hero.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1076194574764101692/img-hero-768.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078712052153065672/Hero_768.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1076194574764101692/img-hero-768.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078712052153065672/Hero_768.jpg);
   }
 }
 
 @media screen and (min-width: 1000px) {
   .hero-section {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1064712815560114276/img-hero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://cdn.discordapp.com/attachments/845486960742105089/1078712293166157937/Hero_1200.jpg);
   }
 }
 
@@ -1568,9 +1568,12 @@ textarea:focus {
 /*ESTO ES BOTONES DE PORTAFOLIO */
 
 .list-menu-projects-button{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  grid-gap: 8px;
+  grid-row-gap: 15px;
 }
 .menu-projects-section-button{
     display: flex;
@@ -1613,7 +1616,6 @@ textarea:focus {
 }
 
 /*ESTO ES PROJECTOS DE PORTAFOLIO */
-
 .list-menu-projects-button{
   display: flex;
   justify-content: center;
@@ -1662,10 +1664,20 @@ textarea:focus {
 /*ESTO ES PROJECTOS DE PORTAFOLIO */
 
 .list-projects {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 25px;
   padding: 0px;
+}
+@media screen and (min-width: 768px){
+  .list-projects {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 1200px){
+  .list-projects {
+    grid-template-columns: auto auto auto;
+  }
 }
 .projects-section-list-item{
   flex-basis: calc((100% - 75px) / 3);
@@ -1701,7 +1713,7 @@ textarea:focus {
 .projects-thumb{
   overflow: hidden;
   position: relative;
-  width: 364px;
+  max-width: 100%;
   height: auto;
 }
 .text-transition{
