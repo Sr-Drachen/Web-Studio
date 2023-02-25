@@ -1,7 +1,10 @@
-.list-menu-button{
+.list-menu-projects-button{
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    grid-gap: 8px;
+    grid-row-gap: 15px;
 }
 .menu-section-button{
     display: flex;
@@ -43,10 +46,16 @@
     cursor: pointer;
 }
 .list-projects {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     gap: 25px;
     padding: 0px;
+    @media screen and (min-width: 768px){
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    @media screen and (min-width: 1200px){
+        grid-template-columns: auto auto auto;
+    }
 }
 .projects-section-list-item{
     flex-basis: calc((100% - 75px) / 3);
@@ -100,10 +109,11 @@
     bottom: -1px;
     overflow: visible;
 }
-
-.projects-link:hover .text-transition {
+.projects-link{
+    &:hover .text-transition {
     transform: translateY(0);
     &:focus .text-transition {
         transform: translateY(0);
+    }
     }
 }

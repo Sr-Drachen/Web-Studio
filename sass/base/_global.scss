@@ -1,20 +1,35 @@
 body{
-    font-family: '$mainFont', sans-serif;
-    color: var(--main-color-dark);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color-dark);
+}
+body::-webkit-scrollbar{
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+  background: var(--brand-color);
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: rgb(25, 117, 192);
+;
 }
 h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-}
-.list{
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
-}
-.link{
-    text-decoration: none;
-    color: currentColor;
+  margin: 0;
 }
 img {
-    display: flex;
-    max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.list{
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.link{
+  text-decoration: none;
+  color: currentColor;
+}
+*,*::before,*::after {
+  box-sizing: border-box;
 }
